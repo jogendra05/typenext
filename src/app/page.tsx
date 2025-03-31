@@ -1,3 +1,4 @@
+import FeaturedCoureses from "@/components/FeaturedCoureses";
 import HeroSection from "@/components/HeroSection";
 import Image from "next/image";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <div>
       <h1 className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
         <HeroSection />
+        <FeaturedCoureses/>
       </h1>
     </div>
   );

@@ -37,6 +37,7 @@ const musicSchoolTestimonials = [
 
 function MusicSchoolTestimonials() {
     return (
+        <div className="overflow-y">
       <div className="relative h-[40rem] w-full flex flex-col items-center justify-center overflow-hidden dark:bg-black">
         {/* Grid background with 20px size */}
         <div
@@ -61,6 +62,7 @@ function MusicSchoolTestimonials() {
             />
           </div>
         </div>
+      </div>
       </div>
     );
   }

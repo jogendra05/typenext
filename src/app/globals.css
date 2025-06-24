@@ -45,3 +45,10 @@ body {
     transform: translate(-50%, -40%) scale(1);
   }
 }
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  scrollbar-width: none;
+}
